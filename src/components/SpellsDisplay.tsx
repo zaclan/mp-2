@@ -8,7 +8,7 @@ const AllSpellsDiv = styled.div `
     display: flex; 
     flex-flow: row wrap;
     justify-content: space-evenly; 
-    background-color: brisque;
+    background-color: lightblue;
 `;
 
 export default function SpellsDisplay(props : {data: SpellsList[]}) {

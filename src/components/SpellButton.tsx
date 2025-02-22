@@ -5,9 +5,11 @@ import { SpellsList } from "../interfaces/SpellsList";
 
 const SingleSpell=styled.button`
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    align-items: center;
+    flex-flow: row wrap;
     justify-content: center;
-    max-width: 30%;
+    max-width: 20%;
     padding: 2%;
     margin: 1%;
     border: 3px darkred solid;
